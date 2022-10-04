@@ -5,9 +5,9 @@ return (
     <div className="wrap" id="gap">
     <div className="left-frame">
       <div>
-        <div className="panel-3"><span className="hop"><a href="#/account">Account</a></span></div>
-        <div className="panel-4"><span className="hop"><a href="#/transact">Transact</a></span></div>
-        <div className="panel-5"><span className="hop" onClick={handleLogout}>Log Out</span></div>			
+        <div className="panel-3"><span className="hop"></span></div>
+        <div className="panel-4"><span className="hop"></span></div>
+        <div className="panel-5"><span className="hop"></span></div>			
       </div>
     </div>
     <div className="right-frame">
