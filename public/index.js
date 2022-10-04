@@ -17,6 +17,7 @@ function Spa() { //single page application
       <Route path="/account" component={Account} />
       <Route path="/transact" component={Transact}/>
       <Route path="/changePassword" component={changePassword}/>
+      <Route path="/APIDocs" component={APIDocs}/>
   </HashRouter>
   );
 }

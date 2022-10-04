@@ -43,18 +43,7 @@ router.get('/getOne/:email', async (req, res) => {
     }
 })
 
-//Get loggedin Method
-router.get('/getLoggedIn/:loggedin', async (req, res) => {
-    try{
-        const data = await Model.findOne({loggedin: true});
-        res.json(data)
-    }
-    catch(error){
-        res.status(500).json({message: error.message})
-    }
-})
-
-//Update by ID Method
+//Update by email Method
 router.patch('/update/:email', async (req, res) => {
     try {
         const filter = { email: req.params.email};
